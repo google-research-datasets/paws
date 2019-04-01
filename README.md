@@ -1,6 +1,6 @@
 # PAWS: Paraphrase Adversaries from Word Scrambling
 
-This dataset contains 108,463 human-labeled pairs that feature the
+This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that feature the
 importance of modeling structure, context, and word order information for the
 problem of paraphrase identification. The dataset has two subsets, one based on
 Wikipedia and the other one based on the
