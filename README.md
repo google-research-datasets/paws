@@ -18,12 +18,8 @@ Below are two examples from the dataset:
 
 |     | Sentence 1                    | Sentence 2                    | Label |
 | :-- | :---------------------------- | :---------------------------- | :---- |
-| (1) | Although interchangeable, the | Although similar, the body    | 0     |
-:     : body pieces on the 2 cars are : parts are not interchangeable :       :
-:     : not similar.                  : on the 2 cars.                :       :
-| (2) | Katz was born in Sweden in    | Katz was born in 1947 in      | 1     |
-:     : 1947 and moved to New York    : Sweden and moved to New York  :       :
-:     : City at the age of 1.         : at the age of one.            :       :
+| (1) | Although interchangeable, the body pieces on the 2 cars are not similar. | Although similar, the body parts are not interchangeable  on the 2 cars.  | 0     |
+| (2) | Katz was born in Sweden in 1947 and moved to New York City at the age of 1.      | Katz was born in 1947 in Sweden and moved to New York at the age of one.   | 1     |
 
 The first pair has different semantic meaning while the second pair is a
 paraphrase. State-of-the-art models trained on existing datasets have dismal
