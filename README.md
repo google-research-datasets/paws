@@ -110,7 +110,7 @@ manually labeled, and the number of examples and the proportion of paraphrase
 
 Data     | Train  | Dev and Test | Yes%
 :------- | -----: | -----------: | ----:
-PAWS-QQP | 11,988 | 687          | 31.4%
+PAWS-QQP | 11,988 | 677          | 31.3%
 
 ## Reference
 
