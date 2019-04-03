@@ -7,6 +7,9 @@ Wikipedia and the other one based on the
 [Quora Question Pairs](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 (QQP) dataset.
 
+For further details, see the accompanying paper:
+[PAWS: Paraphrase Adversaries from Word Scrambling](https://arxiv.org/abs/1904.01130)
+
 ## Motivation
 
 Existing paraphrase identification datasets lack sentence pairs that have high
