@@ -115,6 +115,8 @@ Data     | Train  | Dev and Test | Yes%
 :------- | -----: | -----------: | ----:
 PAWS-QQP | 11,988 | 677          | 31.3%
 
+For the experiments in our paper, we used the train/dev/test split of the original QQP from [Wang et al, 2017](https://arxiv.org/abs/1702.03814).
+
 ## Reference
 
 If you use or discuss this dataset in your work, please cite our paper:
