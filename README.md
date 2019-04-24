@@ -1,9 +1,9 @@
 # PAWS: Paraphrase Adversaries from Word Scrambling
 
-This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that feature the
-importance of modeling structure, context, and word order information for the
-problem of paraphrase identification. The dataset has two subsets, one based on
-Wikipedia and the other one based on the
+This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that
+feature the importance of modeling structure, context, and word order
+information for the problem of paraphrase identification. The dataset has two
+subsets, one based on Wikipedia and the other one based on the
 [Quora Question Pairs](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 (QQP) dataset.
 
@@ -71,6 +71,9 @@ Labeled (Final)     | 49,401  | 8,000  | 8,000 | 44.2%
 Labeled (Swap-only) | 30,397  | --     | --    | 9.6%
 Unlabeled (Final)   | 645,652 | 10,000 | --    | 50.0%
 
+We also release source sentences that are used to generate this dataset and
+their mappings. Please see here for more details.
+
 ## PAWS-QQP
 
 This corpus contains pairs generated from the
@@ -115,7 +118,8 @@ Data     | Train  | Dev and Test | Yes%
 :------- | -----: | -----------: | ----:
 PAWS-QQP | 11,988 | 677          | 31.3%
 
-For the experiments in our paper, we used the train/dev/test split of the original QQP from [Wang et al, 2017](https://arxiv.org/abs/1702.03814).
+For the experiments in our paper, we used the train/dev/test split of the
+original QQP from [Wang et al, 2017](https://arxiv.org/abs/1702.03814).
 
 ## Reference
 
