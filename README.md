@@ -72,7 +72,7 @@ Labeled (Swap-only) | 30,397  | --     | --    | 9.6%
 Unlabeled (Final)   | 645,652 | 10,000 | --    | 50.0%
 
 We also release source sentences that are used to generate this dataset and
-their mappings. Please see here for more details.
+their mappings. Please see [here](https://github.com/google-research-datasets/paws/blob/master/wiki_raw_and_mapping/README.md) for more details.
 
 ## PAWS-QQP
 
