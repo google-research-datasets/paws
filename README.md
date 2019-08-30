@@ -1,5 +1,14 @@
 # PAWS: Paraphrase Adversaries from Word Scrambling
 
+**\*\*\*\*\* New August 27th, 2019: Multilingual PAWS for six languages
+\*\*\*\*\***
+
+We released PAWS-X, a multilingual version of PAWS for six languages. See
+[here](https://github.com/google-research-datasets/paws/tree/master/pawsx) for
+more details.
+
+**\*\*\*\*\* End new information \*\*\*\*\***
+
 This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that
 feature the importance of modeling structure, context, and word order
 information for the problem of paraphrase identification. The dataset has two
@@ -72,7 +81,9 @@ Labeled (Swap-only) | 30,397  | --     | --    | 9.6%
 Unlabeled (Final)   | 645,652 | 10,000 | --    | 50.0%
 
 We also release source sentences that are used to generate this dataset and
-their mappings. Please see [here](https://github.com/google-research-datasets/paws/tree/master/wiki_raw_and_mapping#raw-sentences-and-mappings-for-paws-wiki) for more details.
+their mappings. Please see
+[here](https://github.com/google-research-datasets/paws/tree/master/wiki_raw_and_mapping#raw-sentences-and-mappings-for-paws-wiki)
+for more details.
 
 ## PAWS-QQP
 
@@ -121,15 +132,34 @@ PAWS-QQP | 11,988 | 677          | 31.3%
 For the experiments in our paper, we used the train/dev/test split of the
 original QQP from [Wang et al, 2017](https://arxiv.org/abs/1702.03814).
 
+## PAWS-X
+
+This corpus contains translations of the PAWS examples in six typologically
+distinct languages: French, Spanish, German, Chinese, Japanese, and Korean.
+Please see
+[here](https://github.com/google-research-datasets/paws/tree/master/pawsx) for
+more details.
+
+Note: for multilingual experiments, please use `dev_2k.tsv` provided in the
+PAWS-X repo as the development sets for all languages, including English.
+
 ## Reference
 
-If you use or discuss this dataset in your work, please cite our paper:
+If you use or discuss this dataset in your work, please cite the following
+papers correspondingly:
 
 ```
 @InProceedings{paws2019naacl,
   title = {{PAWS: Paraphrase Adversaries from Word Scrambling}},
   author = {Zhang, Yuan and Baldridge, Jason and He, Luheng},
   booktitle = {Proc. of NAACL},
+  year = {2019}
+}
+
+@InProceedings{pawsx2019emnlp,
+  title = {{PAWS-X: A Cross-lingual Adversarial Dataset for Paraphrase Identification}},
+  author = {Yang, Yinfei and Zhang, Yuan and Tar, Chris and Baldridge, Jason},
+  booktitle = {Proc. of EMNLP},
   year = {2019}
 }
 ```
