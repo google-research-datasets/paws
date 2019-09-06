@@ -10,6 +10,10 @@ The dataset can be downloaded here:
 
 *   [`PAWS-X for six languages`](https://storage.googleapis.com/paws/pawsx/x-final.tar.gz)
 
+For further details, see the accompanying paper:
+[PAWS-X: A Cross-lingual Adversarial Dataset for Paraphrase
+Identification](https://arxiv.org/abs/1908.11828)
+
 Note: for multilingual experiments, please use `dev_2k.tsv` provided in the
 PAWS-X repo as the development sets for all languages, including English.
 
