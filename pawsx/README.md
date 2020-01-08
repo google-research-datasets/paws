@@ -61,3 +61,89 @@ If you use or discuss this dataset in your work, please cite our paper:
   year = {2019}
 }
 ```
+
+
+## Dataset Metadata
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+<table>
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td itemprop="name">PAWS-X</td>
+  </tr>
+  <tr>
+    <td>alternateName</td>
+    <td itemprop="alternateName">Paraphrase Adversaries from Word Scrambling</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td itemprop="description">PAWS-X dataset contains 23,659 human translated PAWS evaluation pairs and 296,406 machine translated training pairs in six typologically distinct languages: French, Spanish, German, Chinese, Japanese, and Korean. All translated pairs are sourced from examples in <a href="https://github.com/google-research-datasets/paws#paws-wiki">PAWS-Wiki.</a>
+   </td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td><code itemprop="url">https://github.com/google-research-datasets/paws/tree/master/pawsx</code></td>
+  </tr>
+  <tr>
+      <td>provider</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td itemprop="name">Google</td>
+          </tr>
+          <tr>
+            <td>url</td>
+            <td><code itemprop="url">https://en.wikipedia.org/wiki/Google</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>license</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/CreativeWork" itemprop="license">
+      <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td  itemprop="name">
+    The dataset may be freely used for any purpose, although acknowledgement of
+Google LLC ("Google") as the data source would be appreciated. The dataset is
+provided "AS IS" without any warranty, express or implied. Google disclaims all
+liability for any damages, direct or indirect, resulting from the use of the
+dataset. 
+          </td>
+        </tr>
+        <tr>
+          <td>url</td>
+          <td>
+            <code itemprop="url">https://github.com/google-research-datasets/paws/blob/master/LICENSE</code>
+          </td>
+        </tr>
+        </table>
+        </div>
+      </td>
+    </tr>
+    <tr>
+  <td>citation</td>
+  <td itemprop="citation"> Yinfei Yang, Yuan Zhang, Chris Tar, Jason Baldridge "PAWS-X: A Cross-lingual Adversarial Dataset for Paraphrase Identification", Proceedings of EMNLP, 2019
+  </td>
+    </tr>
+ </table>
+</div>
+  
