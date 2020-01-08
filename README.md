@@ -168,3 +168,84 @@ papers correspondingly:
 
 If you have a technical question regarding the dataset or publication, please
 create an issue in this repository.
+
+
+## Dataset Metadata
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+<table>
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td itemprop="name">PAWS: Paraphrase Adversaries from Word Scrambling</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td itemprop="description">PAWS dataset contains 108,463 human-labeled and 656k noisily labeled pairs that feature the importance of modeling structure, context, and word order information for the problem of paraphrase identification. The dataset has two subsets, one based on Wikipedia and the other one based on the <a href="https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs">Quora Question Pairs </a>(QQP) dataset.
+   </td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td><code itemprop="url">https://github.com/google-research-datasets/paws</code></td>
+  </tr>
+  <tr>
+      <td>provider</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
+    <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td itemprop="name">Google</td>
+          </tr>
+          <tr>
+            <td>url</td>
+            <td><code itemprop="url">https://en.wikipedia.org/wiki/Google</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>license</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/CreativeWork" itemprop="license">
+      <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td  itemprop="name">
+    The dataset may be freely used for any purpose, although acknowledgement of
+Google LLC ("Google") as the data source would be appreciated. The dataset is
+provided "AS IS" without any warranty, express or implied. Google disclaims all
+liability for any damages, direct or indirect, resulting from the use of the
+dataset. 
+          </td>
+        </tr>
+        <tr>
+          <td>url</td>
+          <td> <code  itemprop="url">https://github.com/google-research-datasets/paws/blob/master/LICENSE</code>
+          </td>
+        </tr>
+        </table>
+        </div>
+      </td>
+    </tr>
+    <tr>
+  <td>citation</td>
+  <td itemprop="citation"> Yinfei Yang, Yuan Zhang, Jason Baldridge "PAWS: Paraphrase Adversaries from Word Scrambling", Proceedings of NAACL, 2019
+  </td>
+    </tr>
+ </table>
+</div>
+  
