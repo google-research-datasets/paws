@@ -13,7 +13,7 @@ This dataset contains 108,463 human-labeled and 656k noisily labeled pairs that
 feature the importance of modeling structure, context, and word order
 information for the problem of paraphrase identification. The dataset has two
 subsets, one based on Wikipedia and the other one based on the
-[Quora Question Pairs](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
+[Quora Question Pairs](https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 (QQP) dataset.
 
 For further details, see the accompanying paper:
@@ -38,7 +38,7 @@ paraphrase. State-of-the-art models trained on existing datasets have dismal
 performance on PAWS (<40% accuracy); however, including PAWS training data for
 these models improves their accuracy to 85% while maintaining performance on
 existing datasets such as the
-[Quora Question Pairs](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs).
+[Quora Question Pairs](https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs).
 
 ## PAWS-Wiki
 
@@ -88,13 +88,13 @@ for more details.
 ## PAWS-QQP
 
 This corpus contains pairs generated from the
-[Quora Question Pairs](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
+[Quora Question Pairs](https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 corpus. We cannot directly distribute the raw `PAWS-QQP` data due to the license
 of QQP, so the examples must be reconstructed by downloading the original data
 and then running our scripts to produce the data and attach the labels.
 
 To reconstruct the `PAWS-QQP` corpus, first download the original
-[Quora Question Pairs dataset](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)
+[Quora Question Pairs dataset](https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs)
 and save the tsv file to some location `/path/to/original_qqp/data.tsv`. Then
 download the `PAWS-QQP` index file from the following link:
 
