@@ -17,6 +17,8 @@ Identification](https://arxiv.org/abs/1908.11828)
 Note: for multilingual experiments, please use `dev_2k.tsv` provided in the
 PAWS-X repo as the development sets for all languages, including English.
 
+Note: As discussed [here](https://github.com/google-research-datasets/paws/issues/15), a small number of samples in the translated dev and tests contain the placeholder "NS". Please make sure you clean them up.
+
 ## Data Format and Statistics
 
 All files are in tsv format with four columns:
